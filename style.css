@@ -218,3 +218,19 @@ a:visited {
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--1);
 }
+
+@media (max-width: 1000px) {
+  body {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    height: 50%;
+  }
+
+  #map {
+    flex: 1;
+    height: 100px;
+    background-color: var(--color-light--1);
+  }
+}
