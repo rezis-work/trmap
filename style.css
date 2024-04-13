@@ -233,4 +233,9 @@ a:visited {
     height: 100px;
     background-color: var(--color-light--1);
   }
+
+  .form {
+    grid-template-columns: 1fr;
+    height: 15rem;
+  }
 }
